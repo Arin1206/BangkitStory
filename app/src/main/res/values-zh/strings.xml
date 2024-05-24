@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_text">没有数据</string>
+    <string name="app_name">启动故事</string>
+    <string name="signup">注册</string>
+    <string name="login">登录</string>
+    <string name="message_welcome_page">通过各种故事或来自多条学习路径的经验，了解Bangkit的自主学习。</string>
+    <string name="title_welcome_page">欢迎来到启动故事</string>
+    <string name="title_signup_page">立即注册！开始探索仪表板</string>
+    <string name="email">电子邮件</string>
+    <string name="name_placeholder">输入您的姓名</string>
+    <string name="email_placeholder">输入您的电子邮件</string>
+    <string name="password">密码</string>
+    <string name="password_placeholder">输入您的密码</string>
+    <string name="message_login_page">请输入您的数据</string>
+    <string name="title_login_page">登录以探索仪表板</string>
+    <string name="name">姓名</string>
+    <string name="message_main_page">在Dicoding学习愉快。</string>
+    <string name="greeting">您好 %1$s ，</string>
+    <string name="logout">登出</string>
+    <string name="empty_image_warning">图像为空</string>
+    <string name="appwidget_text">示例</string>
+    <string name="add_widget">添加小部件</string>
+    <string name="app_widget_description">这是应用程序小部件的描述</string>
+</resources>

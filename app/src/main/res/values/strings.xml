@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="empty_text">NO DATA</string>
+    <string name="app_name">Bangkit Story</string>
+    <string name="signup">Register</string>
+    <string name="login">Login</string>
+    <string name="message_welcome_page">Look and learn about Independent Study at Bangkit through various stories or experiences from several learning paths.</string>
+    <string name="title_welcome_page">Welcome to Story Bangkit</string>
+    <string name="title_signup_page">Register Now ! Begin Explore Dashboard</string>
+    <string name="email">Email</string>
+    <string name="name_placeholder">Input Your Name</string>
+    <string name="email_placeholder">Input Your Email</string>
+    <string name="password">Password</string>
+    <string name="password_placeholder">Input Your Password</string>
+    <string name="message_login_page">Input your Data First</string>
+    <string name="title_login_page">Login for explore Dashboard</string>
+    <string name="name">Name</string>
+    <string name="message_main_page">Happy Learning at Dicoding</string>
+    <string name="greeting">Hello %1$s,</string>
+    <string name="logout">Logout</string>
+    <string name="empty_image_warning">Image Null</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="upload_success_message">Success</string>
+
+</resources>

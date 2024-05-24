@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".view.camera.CameraActivity">
+
+        <ImageView
+            android:id="@+id/previewImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/image_24dp" />
+
+        <Button
+            android:id="@+id/firstButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/red"
+            android:text="Gallery"
+            app:layout_constraintEnd_toStartOf="@+id/camera"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/previewImageView" />
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="@color/red"
+            android:text="Camera"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/firstButton"
+            app:layout_constraintTop_toBottomOf="@id/previewImageView" />
+
+        <EditText
+            android:id="@+id/ed_add_description"
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:layout_margin="8dp"
+            android:background="@color/white"
+            android:gravity="top"
+            android:hint="Enter Text"
+            android:padding="6dp"
+            android:textColorHint="@color/black"
+            app:layout_constraintEnd_toEndOf="@id/button_add"
+            app:layout_constraintStart_toStartOf="@id/button_add"
+            app:layout_constraintTop_toBottomOf="@id/firstButton" />
+
+        <CheckBox
+            android:id="@+id/includePositionCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sertakan Posisi Anda"
+            android:layout_margin="8dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ed_add_description"
+            app:layout_constraintBottom_toTopOf="@id/button_add" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="@color/red"
+            android:text="Upload"
+            app:layout_constraintTop_toBottomOf="@id/includePositionCheckBox"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:progressTint="@color/white"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_add" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

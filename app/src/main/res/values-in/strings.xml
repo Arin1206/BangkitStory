@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_text">Tidak Ada Data</string>
+    <string name="app_name">Cerita Bangkit</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Telusuri dan pelajari tentang Studi Mandiri di Bangkit melalui berbagai cerita atau pengalaman dari beberapa jalur pembelajaran.</string>
+    <string name="title_welcome_page">Selamat datang di Cerita Bangkit</string>
+    <string name="title_signup_page">Daftar Sekarang! Mulailah Jelajahi Dasbor</string>
+    <string name="email">Email</string>
+    <string name="name_placeholder">Masukkan Nama Anda</string>
+    <string name="email_placeholder">Masukkan Email Anda</string>
+    <string name="password">Kata Sandi</string>
+    <string name="password_placeholder">Masukkan Kata Sandi Anda</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Masuk untuk menjelajahi Dasbor</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Selamat Belajar di Dicoding.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="logout">Keluar</string>
+    <string name="empty_image_warning">Gambar Kosong</string>
+    <string name="appwidget_text">Contoh</string>
+    <string name="add_widget">Tambah Widget</string>
+    <string name="app_widget_description">Ini adalah deskripsi widget aplikasi</string>
+</resources>

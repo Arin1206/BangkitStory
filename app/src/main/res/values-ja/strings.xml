@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="empty_text">データがありません</string>
+    <string name="app_name">バンキットストーリー</string>
+    <string name="signup">サインアップ</string>
+    <string name="login">ログイン</string>
+    <string name="message_welcome_page">Bangkitの独立した学習について、さまざまなストーリーや経験を通じて探索して学びます。</string>
+    <string name="title_welcome_page">バンキットストーリーへようこそ</string>
+    <string name="title_signup_page">今すぐ登録！ダッシュボードを探索し始めましょう</string>
+    <string name="email">メール</string>
+    <string name="name_placeholder">お名前を入力してください</string>
+    <string name="email_placeholder">メールアドレスを入力してください</string>
+    <string name="password">パスワード</string>
+    <string name="password_placeholder">パスワードを入力してください</string>
+    <string name="message_login_page">データを入力してください</string>
+    <string name="title_login_page">ダッシュボードを探索するにはログインしてください</string>
+    <string name="name">名前</string>
+    <string name="message_main_page">Dicodingで学びを楽しんでください。</string>
+    <string name="greeting">こんにちは %1$s さん、</string>
+    <string name="logout">ログアウト</string>
+    <string name="empty_image_warning">画像がありません</string>
+    <string name="appwidget_text">例</string>
+    <string name="add_widget">ウィジェットを追加</string>
+    <string name="app_widget_description">これはアプリのウィジェットの説明です</string>
+</resources>

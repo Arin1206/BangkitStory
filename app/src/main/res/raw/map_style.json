@@ -1,0 +1,45 @@
+[
+  {
+    "elementType": "geometry.fill",
+    "stylers": [
+      {
+        "color": "#004080"
+      }
+    ]
+  },
+  {
+    "elementType": "geometry.stroke",
+    "stylers": [
+      {
+        "color": "#ffffff"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.country",
+    "stylers": [
+      {
+        "color": "#ff0000"
+      },
+      {
+        "visibility": "simplified"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.province",
+    "stylers": [
+      {
+        "color": "#ff8000"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "stylers": [
+      {
+        "color": "#00ffff"
+      }
+    ]
+  }
+]
